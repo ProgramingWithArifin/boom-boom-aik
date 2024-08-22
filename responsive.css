@@ -1,0 +1,52 @@
+@media screen and (max-width: 461px){
+    nav a{
+        margin: 10px;
+    }
+    h1{
+        font-size: inherit;
+    }
+    .nlogo{
+        font-size: 1.9rem;
+        font-weight: 800;
+        padding: 10px;
+    }
+    .contact{
+        background-color: aliceblue;
+        color: black;
+        padding: 8px 20px 8px 20px;
+        font-size: 1.9rem;
+        border-radius: 20px;
+    }
+    .logo img{
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 370px){
+    nav a{
+        margin: 10px;
+    }
+    h1{
+        font-size: inherit;
+    }
+    .nlogo{
+        font-size: 1.5rem;
+        font-weight: 800;
+        padding: 10px;
+        text-align: center;
+    }
+    .contact{
+        background-color: aliceblue;
+        color: black;
+        padding: 8px 20px 8px 20px;
+        font-size: 1.5rem;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .logo img{
+        width: 90%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,92 @@
+/* Global reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: whitesmoke;
+    font-family: "Jersey 10", sans-serif;
+}
+:root{
+    --pagebg: #000000bd;
+
+}
+body{
+    background-color: var(--pagebg);
+}
+/* nav bar  */
+nav{
+    margin: auto;
+    width:93%;
+    border-radius: 25px;
+    display: flex;
+    border: 2px solid white;
+    justify-content: space-between;
+}
+nav a{
+    margin: 10px 20px;
+}
+h1{
+    font-size: inherit;
+}
+
+.nlogo{
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 10px;
+}
+
+.contact{
+    background-color: aliceblue;
+    color: black;
+    padding: 10px 30px 10px 30px;
+    font-size: 2rem;
+    border-radius: 20px;
+}
+.contact:hover{
+    color: rgb(161, 159, 159);
+    background-color: rgba(255, 255, 255, 0.808);
+}
+/* logo section */
+.logo{
+    display: flex;
+    justify-content: center;
+
+}
+.logo img{
+    width: 40%;
+    margin: auto;
+}
+/* About section */
+main{
+    width: 93%;
+    border: 2px solid white;
+    text-align: center;
+    margin: auto;
+    font-size: 1.3rem;
+    border-radius: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 3rem;
+}
+/* Contact section */
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section a{
+    margin: 5px;
+    font-size: 1.5rem;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.para h3{
+    text-transform: uppercase;
+
+}
